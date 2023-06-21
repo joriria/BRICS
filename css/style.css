@@ -8,7 +8,7 @@
 .container{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 60vh 260vh 13vh;
+    grid-template-rows: 60vh 500vh 13vh;
     grid-template-areas:  "header header header" 
                           "article article article"
                           "footer footer footer";

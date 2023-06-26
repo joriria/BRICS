@@ -8,7 +8,7 @@
 .container{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 60vh 240vh 13vh;
+    grid-template-rows: 60vh 500vh 13vh;
     grid-template-areas:  "header header header" 
                           "article article article"
                           "footer footer footer";
@@ -85,6 +85,13 @@ article{
 
 }
 
+.imgtxt{
+    width: 73%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
 .brics{
     width: 75%;
     height: 120vh;
@@ -106,6 +113,18 @@ article{
     line-height: 3.2vh;
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.BRICStxtFOTO{
+    font-size: 2vh;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 1vh;
+    line-height: 0.1vh;
+    text-align:center;
+    color:#6f6a60;
+
 }
 
 .membros{
@@ -159,6 +178,7 @@ a{
     font-size: 2.5vh;
     line-height: 3.2vh;
     text-align: justify;
+    margin-top: 2vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
